@@ -1,0 +1,1 @@
+// Pagina iniziale React Next.js MentalWealth
