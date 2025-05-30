@@ -1,4 +1,4 @@
-import promptData from '../data/prompt_master_structured.json';
+import promptData from '../components/prompt_master_structured.json';
 
 export function buildPrompt(dominantPole, userInput) {
   const base = promptData[dominantPole] || promptData.default;
