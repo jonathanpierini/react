@@ -1,1 +1,0 @@
-// Costruzione del prompt dinamico ACT
