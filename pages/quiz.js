@@ -6,11 +6,12 @@ import { useRouter } from 'next/router';
 export default function Quiz() {
   const [current, setCurrent] = useState(0);
   const [answers, setAnswers] = useState([]);
-  const [isClient, setIsClient] = useState(false); // per sicurezza SSR
+  const [isClient, setIsClient] = useState(false);
   const router = useRouter();
 
   useEffect(() => {
-    setIsClient(true); // localStorage sicuro solo lato client
+    // Serve per evitare l'uso di localStorage durante il rendering lato server
+    setIsClient(true);
   }, []);
 
   const handleAnswer = (option) => {
@@ -33,7 +34,10 @@ export default function Quiz() {
     }
   };
 
-  if (!questions || !questions[current]) return <p>Caricamento in corso...</p>;
+  // Se le domande non sono ancora caricate
+  if (!questions || !questions[current]) {
+    return <p>Caricamento in corso...</p>;
+  }
 
   const q = questions[current];
 
