@@ -1,1 +1,34 @@
-// Domande Halifax con risposte frasate e polo associato
+[
+  {
+    "question": "Mi capita spesso di lottare contro i miei pensieri scomodi.",
+    "options": ["Sì, spesso", "A volte", "Raramente"],
+    "pole": "defusione"
+  },
+  {
+    "question": "Evito alcune situazioni per non sentirmi a disagio.",
+    "options": ["Spesso", "Qualche volta", "Quasi mai"],
+    "pole": "accettazione"
+  },
+  {
+    "question": "Sento che i miei valori guidano le mie scelte quotidiane.",
+    "options": ["Molto", "Abbastanza", "Poco"],
+    "pole": "valori"
+  },
+  {
+    "question": "Quando soffro, tendo a criticarmi invece che consolarmi.",
+    "options": ["Sì", "Non sempre", "No"],
+    "pole": "sé-osservante"
+  },
+  {
+    "question": "Mi sento bloccato e incapace di agire quando sono in difficoltà.",
+    "options": ["Spesso", "A volte", "Raramente"],
+    "pole": "azione-impegnata"
+  },
+  {
+    "question": "Mi sento connesso e presente nel momento che sto vivendo.",
+    "options": ["Spesso", "A volte", "Raramente"],
+    "pole": "presenza"
+  }
+
+  // … aggiungi qui altre 30 domande sullo stesso schema
+]
