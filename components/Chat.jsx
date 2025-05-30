@@ -1,0 +1,1 @@
+// Chat GPT modulata secondo dominantPole

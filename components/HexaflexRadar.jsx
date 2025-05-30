@@ -1,0 +1,1 @@
+// Componente radar visuale ACT

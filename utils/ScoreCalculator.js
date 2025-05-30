@@ -1,0 +1,1 @@
+// Funzione per sommare punteggi ACT e selezionare dominantPole
