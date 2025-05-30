@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import questions from '../data/questions.json';
 import { calculateScores, getDominantPole } from '../utils/ScoreCalculator';
 import { useRouter } from 'next/router';
@@ -6,7 +6,12 @@ import { useRouter } from 'next/router';
 export default function Quiz() {
   const [current, setCurrent] = useState(0);
   const [answers, setAnswers] = useState([]);
+  const [isClient, setIsClient] = useState(false); // per sicurezza SSR
   const router = useRouter();
+
+  useEffect(() => {
+    setIsClient(true); // localStorage sicuro solo lato client
+  }, []);
 
   const handleAnswer = (option) => {
     const question = questions[current];
@@ -18,11 +23,17 @@ export default function Quiz() {
     } else {
       const scores = calculateScores(updatedAnswers);
       const dominantPole = getDominantPole(scores);
-      localStorage.setItem('scores', JSON.stringify(scores));
-      localStorage.setItem('dominantPole', dominantPole);
+
+      if (isClient) {
+        localStorage.setItem('scores', JSON.stringify(scores));
+        localStorage.setItem('dominantPole', dominantPole);
+      }
+
       router.push('/chat');
     }
   };
+
+  if (!questions || !questions[current]) return <p>Caricamento in corso...</p>;
 
   const q = questions[current];
 
@@ -53,3 +64,4 @@ export default function Quiz() {
     </div>
   );
 }
+
