@@ -1,6 +1,6 @@
 
 import { useState } from 'react';
-import { buildPrompt } from '../utils/PromptBuilder';
+import { buildPrompt } from '../components/PromptBuilder';
 
 export default function Chat() {
   const [input, setInput] = useState('');
