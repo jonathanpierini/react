@@ -6,7 +6,7 @@ const nextConfig = {
     domains: ['images.unsplash.com', 'cdn.example.com'], // Aggiungi domini immagine esterni se usati
   },
   env: {
-    NEXT_PUBLIC_OPENAI_KEY: process.env.NEXT_PUBLIC_OPENAI_KEY, // Variabile API visibile client-side
+    NEXT_PUBLIC_OPENAI_KEY: process.env.OPENAI_API_KEY, // Variabile API visibile client-side
   },
   output: 'standalone', // Essenziale per deploy su Render o server personalizzati
 };
