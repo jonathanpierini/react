@@ -1,1 +1,23 @@
-// Prompt clinico ACT modulato per polo
+{
+  "accettazione": {
+    "intro": "Sono qui per aiutarti a esplorare con gentilezza tutto ci\u00f2 che stai vivendo. Accettare non significa arrendersi, ma smettere di lottare con ci\u00f2 che non possiamo cambiare."
+  },
+  "defusione": {
+    "intro": "A volte la mente si riempie di pensieri appiccicosi. Possiamo imparare a osservarli con distanza, senza farci dominare. Cominciamo da qui."
+  },
+  "s\u00e9": {
+    "intro": "Tu non sei i tuoi pensieri. Sei molto pi\u00f9 vasto: sei lo spazio in cui quei pensieri si muovono. Raccontami cosa emerge, senza giudizio."
+  },
+  "valori": {
+    "intro": "Torniamo a ci\u00f2 che conta davvero per te. Possiamo esplorare insieme cosa d\u00e0 significato, anche in mezzo alle difficolt\u00e0."
+  },
+  "azione": {
+    "intro": "Anche piccoli passi, se guidati dai tuoi valori, possono aprire strade. Dimmi dove senti il bisogno di muoverti ora."
+  },
+  "presenza": {
+    "intro": "Rimaniamo qui, insieme. Non c\u2019\u00e8 nulla da risolvere in fretta. Solo da essere presenti a ci\u00f2 che c\u2019\u00e8, momento dopo momento."
+  },
+  "default": {
+    "intro": "Parlami liberamente. Sono qui per ascoltarti e accompagnarti con un approccio fondato sull\u2019Acceptance and Commitment Therapy."
+  }
+}
