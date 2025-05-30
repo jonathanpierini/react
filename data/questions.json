@@ -1,34 +1,542 @@
 [
   {
-    "question": "Mi capita spesso di lottare contro i miei pensieri scomodi.",
-    "options": ["Sì, spesso", "A volte", "Raramente"],
-    "pole": "defusione"
+    "question": "Mi sento connesso e presente nel momento che sto vivendo.",
+    "options": [
+      {
+        "text": "Molto",
+        "score": 5
+      },
+      {
+        "text": "Abbastanza",
+        "score": 3
+      },
+      {
+        "text": "Poco",
+        "score": 1
+      }
+    ],
+    "pole": "Contatto con il presente"
   },
   {
-    "question": "Evito alcune situazioni per non sentirmi a disagio.",
-    "options": ["Spesso", "Qualche volta", "Quasi mai"],
-    "pole": "accettazione"
+    "question": "Riesco a focalizzarmi su ciò che sto facendo anche in mezzo al caos.",
+    "options": [
+      {
+        "text": "Molto",
+        "score": 5
+      },
+      {
+        "text": "Abbastanza",
+        "score": 3
+      },
+      {
+        "text": "Poco",
+        "score": 1
+      }
+    ],
+    "pole": "Contatto con il presente"
+  },
+  {
+    "question": "Durante la giornata, mi accorgo consapevolmente di ciò che provo.",
+    "options": [
+      {
+        "text": "Molto",
+        "score": 5
+      },
+      {
+        "text": "Abbastanza",
+        "score": 3
+      },
+      {
+        "text": "Poco",
+        "score": 1
+      }
+    ],
+    "pole": "Contatto con il presente"
+  },
+  {
+    "question": "Riesco a essere pienamente coinvolto in quello che sto facendo.",
+    "options": [
+      {
+        "text": "Molto",
+        "score": 5
+      },
+      {
+        "text": "Abbastanza",
+        "score": 3
+      },
+      {
+        "text": "Poco",
+        "score": 1
+      }
+    ],
+    "pole": "Contatto con il presente"
+  },
+  {
+    "question": "Mi sento consapevole dei miei pensieri e sensazioni mentre accadono.",
+    "options": [
+      {
+        "text": "Molto",
+        "score": 5
+      },
+      {
+        "text": "Abbastanza",
+        "score": 3
+      },
+      {
+        "text": "Poco",
+        "score": 1
+      }
+    ],
+    "pole": "Contatto con il presente"
   },
   {
     "question": "Sento che i miei valori guidano le mie scelte quotidiane.",
-    "options": ["Molto", "Abbastanza", "Poco"],
-    "pole": "valori"
+    "options": [
+      {
+        "text": "Molto",
+        "score": 5
+      },
+      {
+        "text": "Abbastanza",
+        "score": 3
+      },
+      {
+        "text": "Poco",
+        "score": 1
+      }
+    ],
+    "pole": "Valori"
   },
   {
-    "question": "Quando soffro, tendo a criticarmi invece che consolarmi.",
-    "options": ["Sì", "Non sempre", "No"],
-    "pole": "sé-osservante"
+    "question": "Agisco in linea con ciò che è importante per me.",
+    "options": [
+      {
+        "text": "Molto",
+        "score": 5
+      },
+      {
+        "text": "Abbastanza",
+        "score": 3
+      },
+      {
+        "text": "Poco",
+        "score": 1
+      }
+    ],
+    "pole": "Valori"
+  },
+  {
+    "question": "Mi è chiaro cosa conta davvero nella mia vita.",
+    "options": [
+      {
+        "text": "Molto",
+        "score": 5
+      },
+      {
+        "text": "Abbastanza",
+        "score": 3
+      },
+      {
+        "text": "Poco",
+        "score": 1
+      }
+    ],
+    "pole": "Valori"
+  },
+  {
+    "question": "Mi prendo tempo per riflettere su cosa voglio che conti nella mia esistenza.",
+    "options": [
+      {
+        "text": "Molto",
+        "score": 5
+      },
+      {
+        "text": "Abbastanza",
+        "score": 3
+      },
+      {
+        "text": "Poco",
+        "score": 1
+      }
+    ],
+    "pole": "Valori"
+  },
+  {
+    "question": "Anche nei momenti difficili, cerco di non allontanarmi dai miei valori.",
+    "options": [
+      {
+        "text": "Molto",
+        "score": 5
+      },
+      {
+        "text": "Abbastanza",
+        "score": 3
+      },
+      {
+        "text": "Poco",
+        "score": 1
+      }
+    ],
+    "pole": "Valori"
   },
   {
     "question": "Mi sento bloccato e incapace di agire quando sono in difficoltà.",
-    "options": ["Spesso", "A volte", "Raramente"],
-    "pole": "azione-impegnata"
+    "options": [
+      {
+        "text": "Molto",
+        "score": 5
+      },
+      {
+        "text": "Abbastanza",
+        "score": 3
+      },
+      {
+        "text": "Poco",
+        "score": 1
+      }
+    ],
+    "pole": "Azione impegnata"
   },
   {
-    "question": "Mi sento connesso e presente nel momento che sto vivendo.",
-    "options": ["Spesso", "A volte", "Raramente"],
-    "pole": "presenza"
+    "question": "Agisco anche quando provo emozioni spiacevoli.",
+    "options": [
+      {
+        "text": "Molto",
+        "score": 5
+      },
+      {
+        "text": "Abbastanza",
+        "score": 3
+      },
+      {
+        "text": "Poco",
+        "score": 1
+      }
+    ],
+    "pole": "Azione impegnata"
+  },
+  {
+    "question": "Sono disposto a fare scelte difficili per realizzare ciò che è importante.",
+    "options": [
+      {
+        "text": "Molto",
+        "score": 5
+      },
+      {
+        "text": "Abbastanza",
+        "score": 3
+      },
+      {
+        "text": "Poco",
+        "score": 1
+      }
+    ],
+    "pole": "Azione impegnata"
+  },
+  {
+    "question": "Quando inciampo, provo a rialzarmi e andare avanti.",
+    "options": [
+      {
+        "text": "Molto",
+        "score": 5
+      },
+      {
+        "text": "Abbastanza",
+        "score": 3
+      },
+      {
+        "text": "Poco",
+        "score": 1
+      }
+    ],
+    "pole": "Azione impegnata"
+  },
+  {
+    "question": "Cerco di non lasciare che le emozioni mi paralizzino.",
+    "options": [
+      {
+        "text": "Molto",
+        "score": 5
+      },
+      {
+        "text": "Abbastanza",
+        "score": 3
+      },
+      {
+        "text": "Poco",
+        "score": 1
+      }
+    ],
+    "pole": "Azione impegnata"
+  },
+  {
+    "question": "Quando soffro, tendo a criticarmi invece che consolarmi.",
+    "options": [
+      {
+        "text": "Molto",
+        "score": 5
+      },
+      {
+        "text": "Abbastanza",
+        "score": 3
+      },
+      {
+        "text": "Poco",
+        "score": 1
+      }
+    ],
+    "pole": "Sé come contesto"
+  },
+  {
+    "question": "Riesco a osservare i miei pensieri senza identificarmi completamente con essi.",
+    "options": [
+      {
+        "text": "Molto",
+        "score": 5
+      },
+      {
+        "text": "Abbastanza",
+        "score": 3
+      },
+      {
+        "text": "Poco",
+        "score": 1
+      }
+    ],
+    "pole": "Sé come contesto"
+  },
+  {
+    "question": "Mi sento parte di qualcosa di più grande di me.",
+    "options": [
+      {
+        "text": "Molto",
+        "score": 5
+      },
+      {
+        "text": "Abbastanza",
+        "score": 3
+      },
+      {
+        "text": "Poco",
+        "score": 1
+      }
+    ],
+    "pole": "Sé come contesto"
+  },
+  {
+    "question": "Sono consapevole che la mia identità è più dei miei pensieri e delle mie emozioni.",
+    "options": [
+      {
+        "text": "Molto",
+        "score": 5
+      },
+      {
+        "text": "Abbastanza",
+        "score": 3
+      },
+      {
+        "text": "Poco",
+        "score": 1
+      }
+    ],
+    "pole": "Sé come contesto"
+  },
+  {
+    "question": "Riesco a guardarmi con compassione anche quando fallisco.",
+    "options": [
+      {
+        "text": "Molto",
+        "score": 5
+      },
+      {
+        "text": "Abbastanza",
+        "score": 3
+      },
+      {
+        "text": "Poco",
+        "score": 1
+      }
+    ],
+    "pole": "Sé come contesto"
+  },
+  {
+    "question": "Mi capita spesso di lottare contro i miei pensieri scomodi.",
+    "options": [
+      {
+        "text": "Molto",
+        "score": 5
+      },
+      {
+        "text": "Abbastanza",
+        "score": 3
+      },
+      {
+        "text": "Poco",
+        "score": 1
+      }
+    ],
+    "pole": "Defusione"
+  },
+  {
+    "question": "Provo a liberarmi dei pensieri che non mi piacciono.",
+    "options": [
+      {
+        "text": "Molto",
+        "score": 5
+      },
+      {
+        "text": "Abbastanza",
+        "score": 3
+      },
+      {
+        "text": "Poco",
+        "score": 1
+      }
+    ],
+    "pole": "Defusione"
+  },
+  {
+    "question": "Mi sento intrappolato nei miei pensieri.",
+    "options": [
+      {
+        "text": "Molto",
+        "score": 5
+      },
+      {
+        "text": "Abbastanza",
+        "score": 3
+      },
+      {
+        "text": "Poco",
+        "score": 1
+      }
+    ],
+    "pole": "Defusione"
+  },
+  {
+    "question": "Fatico a lasciar andare i pensieri negativi.",
+    "options": [
+      {
+        "text": "Molto",
+        "score": 5
+      },
+      {
+        "text": "Abbastanza",
+        "score": 3
+      },
+      {
+        "text": "Poco",
+        "score": 1
+      }
+    ],
+    "pole": "Defusione"
+  },
+  {
+    "question": "Credo sempre ai miei pensieri, anche quando mi fanno stare male.",
+    "options": [
+      {
+        "text": "Molto",
+        "score": 5
+      },
+      {
+        "text": "Abbastanza",
+        "score": 3
+      },
+      {
+        "text": "Poco",
+        "score": 1
+      }
+    ],
+    "pole": "Defusione"
+  },
+  {
+    "question": "Evito alcune situazioni per non sentirmi a disagio.",
+    "options": [
+      {
+        "text": "Molto",
+        "score": 5
+      },
+      {
+        "text": "Abbastanza",
+        "score": 3
+      },
+      {
+        "text": "Poco",
+        "score": 1
+      }
+    ],
+    "pole": "Accettazione"
+  },
+  {
+    "question": "Faccio fatica ad accettare quello che provo.",
+    "options": [
+      {
+        "text": "Molto",
+        "score": 5
+      },
+      {
+        "text": "Abbastanza",
+        "score": 3
+      },
+      {
+        "text": "Poco",
+        "score": 1
+      }
+    ],
+    "pole": "Accettazione"
+  },
+  {
+    "question": "Cerco di non sentire emozioni spiacevoli.",
+    "options": [
+      {
+        "text": "Molto",
+        "score": 5
+      },
+      {
+        "text": "Abbastanza",
+        "score": 3
+      },
+      {
+        "text": "Poco",
+        "score": 1
+      }
+    ],
+    "pole": "Accettazione"
+  },
+  {
+    "question": "Accolgo ciò che sento, anche quando è difficile.",
+    "options": [
+      {
+        "text": "Molto",
+        "score": 5
+      },
+      {
+        "text": "Abbastanza",
+        "score": 3
+      },
+      {
+        "text": "Poco",
+        "score": 1
+      }
+    ],
+    "pole": "Accettazione"
+  },
+  {
+    "question": "Sono disposto a convivere con il dolore se serve a costruire una vita piena.",
+    "options": [
+      {
+        "text": "Molto",
+        "score": 5
+      },
+      {
+        "text": "Abbastanza",
+        "score": 3
+      },
+      {
+        "text": "Poco",
+        "score": 1
+      }
+    ],
+    "pole": "Accettazione"
   }
-
-  // … aggiungi qui altre 30 domande sullo stesso schema
 ]
